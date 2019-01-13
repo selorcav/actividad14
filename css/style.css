@@ -1,0 +1,52 @@
+body{
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+-}
+.comment_box{
+	background-color: black;
+	height: 180px;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+}
+.profile_pic{
+	border: 3px solid lightblue ;
+	border-radius: 50%;
+	height: auto;
+	width: 10%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+.comment_box__form{
+	float: left;
+	width: 90%;
+	padding: 5px;
+}
+.comment_box__button{
+	float: right;
+	padding: 5px;
+}
+.tweet{
+	background-color: gray;
+	height:auto;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.tweet__text{
+	padding: 5px;
+	color: white;
+}
+.close{
+	display: inline-block;
+	float: right;
+	width: 10%;
+	overflow: hidden;
+	display: inline-block;
+}
+.counter{
+	display: inline-block;
+}
